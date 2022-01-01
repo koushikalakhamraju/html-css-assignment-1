@@ -5,3 +5,41 @@
 width: 100%;
 height: 100%;
 }
+.container-1{
+    display: block;
+    width: 99%;
+    background-color: #f2f2f2;
+    height: 40%;
+    border: 1px solid black;
+    padding:20px 10px;
+    margin: 1px 1px 20px 1px;
+}
+.col-1, #render-wiki{
+    display: inline-block;
+    width:45%;
+}
+.col-1{
+    text-align: left;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+button{ 
+    background-color: #f2f2f2;
+    color: rgb(89, 45, 161);
+    padding: 2px 2px;
+    margin: 1px 1px 1px 1px;
+}
+.container-2{
+    width: 99%;
+    background-color: #f2f2f2;
+    height: 25%;
+    border: 1px solid black;
+    text-align: center;
+    padding:20px 10px;
+    margin: 1px 1px 0px 1px;
+}
+#render-dictionary{
+    margin:0px 1px 1px 1px;
+    border: 1px solid #f2f2f2;
+    height: 25%;
+}
