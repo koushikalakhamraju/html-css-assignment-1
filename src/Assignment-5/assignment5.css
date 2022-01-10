@@ -1,7 +1,63 @@
 /* Our CSS file. */
 
 
-.container, .content {
+#container, .content {
 width: 100%;
 height: 100%;
 }
+.full-card{
+    height: 600px;
+    width: 600px;
+    background: rgb(223, 219, 219);
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    height: 250px;
+    width: 530px;
+    display:flex;
+    flex-direction: row;
+    border: 2px solid rgb(235, 236, 233);
+    margin:35px 13px 15px 40px;
+    border-radius: 10px;
+    
+}
+
+.image-1{
+    width: 200px;
+    background: yellowgreen;
+}
+.image-1 img{
+    position: relative;
+    height:250px;
+    width: 260px;
+    top: -30px;
+    left:-10px;
+}
+.image-2{
+    width: 200px;
+    background: yellowgreen;
+}
+.image-2 img{
+    position: relative;
+    height:240px;
+    width: 240px;
+    left:-20px;
+}
+.content{
+    height: 250px;
+    width: 350px;
+    display: inline-block;
+    text-align: left;
+    background: white;
+    padding-left: 40px;
+}
+h1{ 
+    font-size: 35px;
+}
+button{
+    background-color: yellowgreen;
+    padding: 13px;
+    border-radius: 15px;
+}
+
